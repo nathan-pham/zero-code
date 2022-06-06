@@ -33,6 +33,9 @@
                 --c-editor-classes: #8cc0f1;
                 --c-editor-methods: #cea8ff;
                 --c-editor-html: #95e783;
+                --c-editor-css-var: #f1a657;
+                --c-editor-css-bracket: #f6d700;
+                --c-editor-css-paren: #ce70d8;
 
                 --font-inter: "Inter", sans-serif;
 
@@ -90,7 +93,10 @@
             };
 
             const JsRegex = {
-                classes: / (class) /g,
+                string1: /"(.*?)"/g,
+                string2: /'(.*?)'/g,
+
+                classes: /\s?(class) /g,
 
                 jsKeywords:
                     /\b(new|var|let|const|extends|if|do|function|return|export|from|import|default|constructor|while|switch|for|foreach|in|continue|break|typeof|instanceof)(?=[^\w])/g,

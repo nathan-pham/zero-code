@@ -27,5 +27,3 @@ document.querySelectorAll("lmao")
 ```
 
 ## Screenshots
-
-![](2022-06-05-18-51-59.png)

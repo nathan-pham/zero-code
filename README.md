@@ -2,7 +2,7 @@
 
 # Zero Code
 
-Syntax highlighter web component. Very limited and not necessarily using the latest version of Zero... Anyways the regex principles still stand.
+Syntax highlighter web component. Very limited and not tested. Also not using the latest version of Zero (although I will try to keep all code backwards compatible because it's in the [Zero Framework Blog](https://github.com/nathan-pham/zero-framework-blog)) Anyways the regex principles still stand.
 
 ## Usage
 
@@ -27,3 +27,5 @@ document.querySelectorAll("lmao")
 ```
 
 ## Screenshots
+
+![](2022-06-05-18-59-05.png)
